@@ -21,10 +21,10 @@ export class videoModal extends Component {
           <ModalVideo
             channel="youtube"
             isOpen={this.state.isOpen}
-            videoId="5Vorb0E9Z3M"
+            videoId="o5dOptZUFR0"
             onClose={() => this.setState({ isOpen: false })}
           />
-          <img src="/logo192.png" onClick={this.openModal} alt="react logo"/>
+          <img src="/logo192.png" onClick={this.openModal} alt="plantmelogo"/>
         </div>
       </div>
     );
